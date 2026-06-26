@@ -29,4 +29,5 @@ const PORT = process.env.PORT || 3002;
 app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
   console.log(`📁 QR images saved to: ${QR_DIR}`);
+  console.log(MONGO_URI);
 });
